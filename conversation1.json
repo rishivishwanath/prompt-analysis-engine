@@ -1,0 +1,40 @@
+{
+  "conversation": [
+    {
+      "sender_type": "human",
+      "message": "not working"
+    },
+    {
+      "sender_type": "ai",
+      "message": "Could you please provide more details? What exactly isn’t working?"
+    },
+    {
+      "sender_type": "human",
+      "message": "the thing I tried to fix with that code we saw earlier"
+    },
+    {
+      "sender_type": "ai",
+      "message": "Can you clarify which code you're referring to or what issue you're facing?"
+    },
+    {
+      "sender_type": "human",
+      "message": "you know, the thing that broke yesterday. It still doesn’t run."
+    },
+    {
+      "sender_type": "ai",
+      "message": "Unfortunately, I need a bit more context. Could you share the code snippet or error message?"
+    },
+    {
+      "sender_type": "human",
+      "message": "I already told you this yesterday, why do I have to repeat?"
+    },
+    {
+      "sender_type": "ai",
+      "message": "I'm sorry, I don’t have memory of past sessions. If you could provide the code or a description, I can help you."
+    },
+    {
+      "sender_type": "human",
+      "message": "Forget it. This is useless."
+    }
+  ]
+}

@@ -1,0 +1,255 @@
+{
+  "clarity": {
+    "score": 2.0,
+    "reason": "The candidate's prompts are extremely vague.  Phrases like \"the thing I tried to fix\" and \"the thing that broke yesterday\" lack any specifics, making it impossible for the AI to understand the problem.",
+    "stats": {
+      "mean": 2.0,
+      "median": 2.0,
+      "std_dev": 0.0,
+      "min": 2.0,
+      "max": 2.0,
+      "confidence_interval": [
+        2.0,
+        2.0
+      ],
+      "outliers_removed": 0,
+      "all_scores": [
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0
+      ]
+    }
+  },
+  "specificity": {
+    "score": 2.0,
+    "reason": "The candidate fails to define a clear task or goal.  There's no mention of what needs to be done, only that something isn't working. No desired outcome is stated.",
+    "stats": {
+      "mean": 1.6,
+      "median": 2.0,
+      "std_dev": 0.55,
+      "min": 1.0,
+      "max": 2.0,
+      "confidence_interval": [
+        1.12,
+        2.08
+      ],
+      "outliers_removed": 0,
+      "all_scores": [
+        1.0,
+        2.0,
+        2.0,
+        1.0,
+        2.0
+      ]
+    }
+  },
+  "context": {
+    "score": 2.0,
+    "reason": "The candidate mentions a previous session and code, implying context, but provides no details.  The AI is left to guess what code or issue is being referenced.",
+    "stats": {
+      "mean": 2.0,
+      "median": 2.0,
+      "std_dev": 0.0,
+      "min": 2.0,
+      "max": 2.0,
+      "confidence_interval": [
+        2.0,
+        2.0
+      ],
+      "outliers_removed": 0,
+      "all_scores": [
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0
+      ]
+    }
+  },
+  "format": {
+    "score": 1.0,
+    "reason": "The candidate doesn't specify any desired format for the output.  There's no indication of what kind of response is expected.",
+    "stats": {
+      "mean": 1.0,
+      "median": 1.0,
+      "std_dev": 0.0,
+      "min": 1.0,
+      "max": 1.0,
+      "confidence_interval": [
+        1.0,
+        1.0
+      ],
+      "outliers_removed": 0,
+      "all_scores": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    }
+  },
+  "tone_persona": {
+    "score": 3.0,
+    "reason": "The tone becomes increasingly frustrated and impatient, which is evident in statements like \"why do I have to repeat?\" and \"Forget it. This is useless.\" However, no specific persona was defined.",
+    "stats": {
+      "mean": 3.4,
+      "median": 3.0,
+      "std_dev": 0.55,
+      "min": 3.0,
+      "max": 4.0,
+      "confidence_interval": [
+        2.92,
+        3.88
+      ],
+      "outliers_removed": 0,
+      "all_scores": [
+        3.0,
+        4.0,
+        4.0,
+        3.0,
+        3.0
+      ]
+    }
+  },
+  "completeness": {
+    "score": 1.0,
+    "reason": "The prompts are severely lacking in necessary information.  Crucial details like the code, error messages, or a clear description of the problem are absent.",
+    "stats": {
+      "mean": 1.0,
+      "median": 1.0,
+      "std_dev": 0.0,
+      "min": 1.0,
+      "max": 1.0,
+      "confidence_interval": [
+        1.0,
+        1.0
+      ],
+      "outliers_removed": 0,
+      "all_scores": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    }
+  },
+  "conciseness": {
+    "score": 4.0,
+    "reason": "While the prompts are short, they lack the necessary information to be effective.  Conciseness without completeness is not beneficial.",
+    "stats": {
+      "mean": 4.8,
+      "median": 4.0,
+      "std_dev": 1.1,
+      "min": 4.0,
+      "max": 6.0,
+      "confidence_interval": [
+        3.84,
+        5.76
+      ],
+      "outliers_removed": 0,
+      "all_scores": [
+        4.0,
+        6.0,
+        6.0,
+        4.0,
+        4.0
+      ]
+    }
+  },
+  "iteration_quality": {
+    "score": 1.0,
+    "reason": "The candidate shows no attempt to refine their prompts based on the AI's requests for more information.  Instead, they become frustrated and dismissive.",
+    "stats": {
+      "mean": 1.0,
+      "median": 1.0,
+      "std_dev": 0.0,
+      "min": 1.0,
+      "max": 1.0,
+      "confidence_interval": [
+        1.0,
+        1.0
+      ],
+      "outliers_removed": 0,
+      "all_scores": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    }
+  },
+  "adaptation": {
+    "score": 1.0,
+    "reason": "The candidate fails to adapt their approach when the initial prompts are unsuccessful.  They don't try to provide the requested information, opting to end the interaction.",
+    "stats": {
+      "mean": 1.0,
+      "median": 1.0,
+      "std_dev": 0.0,
+      "min": 1.0,
+      "max": 1.0,
+      "confidence_interval": [
+        1.0,
+        1.0
+      ],
+      "outliers_removed": 0,
+      "all_scores": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    }
+  },
+  "follow_up_effectiveness": {
+    "score": 1.0,
+    "reason": "The candidate doesn't ask any clarifying questions.  Their responses are solely complaints about the AI's inability to recall past conversations.",
+    "stats": {
+      "mean": 1.0,
+      "median": 1.0,
+      "std_dev": 0.0,
+      "min": 1.0,
+      "max": 1.0,
+      "confidence_interval": [
+        1.0,
+        1.0
+      ],
+      "outliers_removed": 0,
+      "all_scores": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    }
+  },
+  "total_score": 18,
+  "percentage_score": "18%",
+  "overall_feedback": "The candidate demonstrates extremely poor prompting skills.  Their prompts lack clarity, specificity, and completeness.  They fail to iterate, adapt, or provide the necessary information for the AI to assist them.  The candidate's frustration is understandable, but effective prompting requires providing sufficient detail and collaborating with the AI, not blaming it for its limitations.",
+  "evaluation_metadata": {
+    "num_runs": 5,
+    "successful_runs": 5,
+    "total_stats": {
+      "mean": 18.8,
+      "median": 18,
+      "std_dev": 2.05,
+      "confidence_interval": [
+        17.0,
+        20.6
+      ],
+      "all_scores": [
+        17,
+        21,
+        21,
+        17,
+        18
+      ]
+    }
+  }
+}
