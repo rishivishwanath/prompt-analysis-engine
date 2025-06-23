@@ -1,0 +1,56 @@
+{
+  "conversation": [
+    {
+      "sender_type": "human",
+      "message": "I tried what you said but it still doesn’t work."
+    },
+    {
+      "sender_type": "ai",
+      "message": "Can you tell me what you tried and what exactly didn’t work?"
+    },
+    {
+      "sender_type": "human",
+      "message": "I used the thing with `fill_in`, but the number isn’t correct."
+    },
+    {
+      "sender_type": "ai",
+      "message": "Could you share the exact code you used and what result you’re seeing?"
+    },
+    {
+      "sender_type": "human",
+      "message": "I did: `fill_in 'user[mobile_number]', with: user_mobile_number`"
+    },
+    {
+      "sender_type": "ai",
+      "message": "What is the value of `user_mobile_number`? And is it replacing the input correctly or appending?"
+    },
+    {
+      "sender_type": "human",
+      "message": "It's 913835116376. But I see something like 38351163769 in the field."
+    },
+    {
+      "sender_type": "ai",
+      "message": "Understood. That suggests the field isn’t being cleared before input. Try using `.set('')` before `fill_in`."
+    },
+    {
+      "sender_type": "human",
+      "message": "Didn’t we already try that yesterday?"
+    },
+    {
+      "sender_type": "ai",
+      "message": "Sorry, I don't retain memory between sessions. Could you confirm whether `.set('')` fixed it or not?"
+    },
+    {
+      "sender_type": "human",
+      "message": "I'll try again. One sec."
+    },
+    {
+      "sender_type": "human",
+      "message": "Yeah, okay that works. But I still don't get why it fails randomly."
+    },
+    {
+      "sender_type": "ai",
+      "message": "It's likely due to inconsistent field clearing by Capybara. We can use a more reliable method if needed. Want help implementing a fallback with `execute_script`?"
+    }
+  ]
+}

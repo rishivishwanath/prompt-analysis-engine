@@ -1,0 +1,245 @@
+{
+  "clarity": {
+    "score": 8.0,
+    "reason": "The candidate's initial prompt ('Now something else broke. Not sure what though.') is clear in its expression of a problem, although lacking in detail. Subsequent prompts are clear and concise, effectively communicating the specific issue and desired outcome.",
+    "stats": {
+      "mean": 8.0,
+      "median": 8.0,
+      "std_dev": 0.0,
+      "min": 8.0,
+      "max": 8.0,
+      "confidence_interval": [
+        8.0,
+        8.0
+      ],
+      "outliers_removed": 0,
+      "all_scores": [
+        8.0,
+        8.0,
+        8.0,
+        8.0
+      ]
+    }
+  },
+  "specificity": {
+    "score": 7.0,
+    "reason": "The initial prompt lacks specificity. However, the candidate quickly provides more specific information about the problem (updating an input field, Capybara test, code snippet).  The specificity improves significantly as the conversation progresses.",
+    "stats": {
+      "mean": 7.0,
+      "median": 7.0,
+      "std_dev": 0.0,
+      "min": 7.0,
+      "max": 7.0,
+      "confidence_interval": [
+        7.0,
+        7.0
+      ],
+      "outliers_removed": 0,
+      "all_scores": [
+        7.0,
+        7.0,
+        7.0,
+        7.0
+      ]
+    }
+  },
+  "context": {
+    "score": 7.0,
+    "reason": "The candidate provides context by mentioning a previous fix and the similarity to a previous test.  This helps the AI understand the situation.  More context could have been provided initially, but it's progressively added.",
+    "stats": {
+      "mean": 7.0,
+      "median": 7.0,
+      "std_dev": 0.0,
+      "min": 7.0,
+      "max": 7.0,
+      "confidence_interval": [
+        7.0,
+        7.0
+      ],
+      "outliers_removed": 0,
+      "all_scores": [
+        7.0,
+        7.0,
+        7.0,
+        7.0
+      ]
+    }
+  },
+  "format": {
+    "score": 8.0,
+    "reason": "The candidate effectively uses code blocks to share the relevant Ruby code snippet.  This is a clear and appropriate format for sharing code.",
+    "stats": {
+      "mean": 8.0,
+      "median": 8.0,
+      "std_dev": 0.0,
+      "min": 8.0,
+      "max": 8.0,
+      "confidence_interval": [
+        8.0,
+        8.0
+      ],
+      "outliers_removed": 0,
+      "all_scores": [
+        8.0,
+        8.0,
+        8.0,
+        8.0
+      ]
+    }
+  },
+  "tone_persona": {
+    "score": 7.0,
+    "reason": "The candidate maintains a polite and collaborative tone throughout the conversation. There's no indication of a specific persona being defined.",
+    "stats": {
+      "mean": 7.0,
+      "median": 7.0,
+      "std_dev": 0.0,
+      "min": 7.0,
+      "max": 7.0,
+      "confidence_interval": [
+        7.0,
+        7.0
+      ],
+      "outliers_removed": 0,
+      "all_scores": [
+        7.0,
+        7.0,
+        7.0,
+        7.0
+      ]
+    }
+  },
+  "completeness": {
+    "score": 7.5,
+    "reason": "The candidate provides sufficient information to allow the AI to understand and address the problem.  While the initial prompt is incomplete, the subsequent responses fill in the necessary details.",
+    "stats": {
+      "mean": 7.5,
+      "median": 7.5,
+      "std_dev": 0.58,
+      "min": 7.0,
+      "max": 8.0,
+      "confidence_interval": [
+        6.93,
+        8.07
+      ],
+      "outliers_removed": 0,
+      "all_scores": [
+        7.0,
+        8.0,
+        7.0,
+        8.0
+      ]
+    }
+  },
+  "conciseness": {
+    "score": 7.0,
+    "reason": "The initial prompt could have been more concise. However, the subsequent prompts are concise and to the point, efficiently conveying the necessary information.",
+    "stats": {
+      "mean": 7.0,
+      "median": 7.0,
+      "std_dev": 0.0,
+      "min": 7.0,
+      "max": 7.0,
+      "confidence_interval": [
+        7.0,
+        7.0
+      ],
+      "outliers_removed": 0,
+      "all_scores": [
+        7.0,
+        7.0,
+        7.0,
+        7.0
+      ]
+    }
+  },
+  "iteration_quality": {
+    "score": 9.0,
+    "reason": "The candidate effectively iterates on their prompts, providing more details and refining their requests based on the AI's responses. They successfully incorporate the AI's suggestions and ask clarifying questions.",
+    "stats": {
+      "mean": 9.0,
+      "median": 9.0,
+      "std_dev": 0.0,
+      "min": 9.0,
+      "max": 9.0,
+      "confidence_interval": [
+        9.0,
+        9.0
+      ],
+      "outliers_removed": 0,
+      "all_scores": [
+        9.0,
+        9.0,
+        9.0,
+        9.0
+      ]
+    }
+  },
+  "adaptation": {
+    "score": 8.0,
+    "reason": "The candidate adapts well to the AI's suggestions, trying the proposed solution and reporting the results. They show flexibility in their approach to problem-solving.",
+    "stats": {
+      "mean": 8.0,
+      "median": 8.0,
+      "std_dev": 0.0,
+      "min": 8.0,
+      "max": 8.0,
+      "confidence_interval": [
+        8.0,
+        8.0
+      ],
+      "outliers_removed": 0,
+      "all_scores": [
+        8.0,
+        8.0,
+        8.0,
+        8.0
+      ]
+    }
+  },
+  "follow_up_effectiveness": {
+    "score": 8.0,
+    "reason": "The candidate asks relevant clarifying questions, such as 'How would that look?' and 'Why do I have to manually clear it every time though?', demonstrating effective follow-up.",
+    "stats": {
+      "mean": 8.25,
+      "median": 8.0,
+      "std_dev": 0.5,
+      "min": 8.0,
+      "max": 9.0,
+      "confidence_interval": [
+        7.76,
+        8.74
+      ],
+      "outliers_removed": 0,
+      "all_scores": [
+        8.0,
+        9.0,
+        8.0,
+        8.0
+      ]
+    }
+  },
+  "total_score": 76.5,
+  "percentage_score": "76%",
+  "overall_feedback": "The candidate demonstrates good prompting skills, particularly in their ability to iterate and adapt based on the AI's responses. While the initial prompt lacked specificity and conciseness, the candidate quickly improved, providing sufficient context and detail to effectively resolve the issue.  Their follow-up questions were insightful and helped to deepen their understanding of the solution.",
+  "evaluation_metadata": {
+    "num_runs": 4,
+    "successful_runs": 4,
+    "rag_examples_used": 1,
+    "total_stats": {
+      "mean": 76.75,
+      "median": 76.5,
+      "std_dev": 0.96,
+      "confidence_interval": [
+        75.81,
+        77.69
+      ],
+      "all_scores": [
+        76,
+        78,
+        76,
+        77
+      ]
+    }
+  }
+}
